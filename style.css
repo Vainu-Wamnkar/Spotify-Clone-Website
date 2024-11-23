@@ -1,0 +1,117 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    font-family:'Ubuntu',sans-serif;
+}
+nav ul{
+    display:  flex;
+    align-items: center;
+    list-style:none;
+    height: 65px;
+    background-color: black;
+    color: white;
+
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width:40px;
+}
+.container{
+    min-height:70vh;
+    background-color: black;
+    color:  white;
+    font-family:'Ubuntu',sans-serif;
+    display:flex;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 12px;
+    padding: 24px;
+    background-image: url('music.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.brand{
+    display:flex;
+    align-items:  center;
+    font-weight:bolder;
+    font: size 1.3rem;
+    gap: 4px;
+}
+.bottom{
+    position:sticky;
+    height:100px;
+    background-color: black;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+
+}
+.icons{
+    margin-top:14px;
+    display: flex;
+    gap:30px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width:80vw;
+    cursor: pointer;
+    
+}
+.songItemContainer{
+    margin-top:50px;
+}
+.songItem{
+    height: 40px;
+    width: 70%;
+    /* background-color:white; */
+    /* color:black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius:30px;
+    border:1px solid white;
+    gap:15px;
+    margin:12px 0;
+    padding:5px;
+
+}
+.songItem img{
+    width:30px;
+    border-radius: 50%;
+}
+.space{
+    margin-left: 10px;
+    font-size:20px;
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 140px;
+    bottom:20px;
+    font-family:'Ubuntu',sans-serif;
+
+    
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+ /* #masterPlay,#previous,#next:active{
+    box-shadow:10px 10px 10px;
+ } */
